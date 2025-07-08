@@ -62,14 +62,17 @@ bookstore.AddBook(showcaseBook);
 
 #### Output
 
+![image](https://github.com/user-attachments/assets/e2fd2471-c819-40ce-938d-d725cf05b531)
+
 
 ### 2. Buy a Book
 
 The `buyBook` method allows customers to purchase a book:
 
 ```java
-bookstore.buyBook("book1", 2, "user@example.com", "123 Main St.");
-bookstore.buyBook("book2", 1, "user@example.com", "123 Main St.");
+bookstore.buyBook("book1", 2, "alyashrafelprince2004@gmail.com", "Nasr City");
+bookstore.buyBook("book2", 1, "alyashrafelprince2004@gmail.com", "Nasr City");
+bookstore.buyBook("book3", 1, "alyashrafelprince2004@gmail.com", "Nasr City");
 ```
 
 - **Invalid cases**:
@@ -79,6 +82,9 @@ bookstore.buyBook("book2", 1, "user@example.com", "123 Main St.");
 
 #### Output
 
+![image](https://github.com/user-attachments/assets/c2964a7f-a481-42d4-a7c6-aefed8fd8401)
+
+
 ### 3. Remove Outdated Books
 
 Remove books older than a certain number of years:
@@ -87,3 +93,5 @@ Remove books older than a certain number of years:
 bookstore.removeOutdatedBooks(3);  // Removes books older than 3 years
 ```
 #### Output
+
+![image](https://github.com/user-attachments/assets/99c920be-2bc5-49f7-b661-b2c8f398fb92)
